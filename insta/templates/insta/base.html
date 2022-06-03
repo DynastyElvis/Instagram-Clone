@@ -1,15 +1,12 @@
-{% load staticfiles %}
+{% load static %}
 
-
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="{% {% static 'css/insta.css' %} %}">
+    <link rel="stylesheet" href="{% static 'css/insta.css' %}">
     <title></title>
 </head>
 <body>
@@ -21,8 +18,8 @@
                 <a href="/">Instagram</a>
             </div>
             <div class="search_bar">
-                    <input type="text" placeholder="Search">
-                    <a class="search" href=""><i class="fas fa-search"></i></a>
+                <input type="text" placeholder="Search">
+                <a class="search" href=""><i class="fas fa-search"></i></a>
             </div>
             <div>
             <a class="explore" href="/"><i class="far fa-search"></i></a>
@@ -32,5 +29,9 @@
             </div>
         </div>
     </header>
+    <div class="content_container">
+        {% block content %}
+        {% endblock %}
+    </div>
 </body>
 </html>
