@@ -71,7 +71,7 @@ header {
 } */
 
 .vl {
-    border-left: 1.5px solid #080808;
+    border-left: 1.5px solid #3e1e47;
     height: 30px;
     margin-left: 20px;
 }
@@ -100,6 +100,20 @@ header {
     font-size: 27px;
     padding-left: 15;
 }
+
+.card_header {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.profile_image {
+    display: inline-block;
+    background-color: #3e1e47;
+}
+
+
 .content_container{
     background-color: #FAFAFA;
     padding-top: 0px;
@@ -108,4 +122,15 @@ header {
     left: 0px;
     top: 85px;
 
+}
+.card{
+    background-color: white;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    margin: 0 auto;
+    width: 615px;
+    height: auto;
+    border: .9px solid #ccc;
+    margin-bottom: 65px;
+    /* float: centre; */
 }
