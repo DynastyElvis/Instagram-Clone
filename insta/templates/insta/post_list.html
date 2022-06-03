@@ -1,6 +1,7 @@
 {% extends 'insta/base.html' %}
 
 {% block content %}
+
 {% for post in posts %}
 <!-- <p>{{post.author}}</p>
 <p>{{post.caption}}</p> -->
@@ -13,12 +14,21 @@
 
 
         <div class="post_info">
-            <div class="post_name">{{post.author}}</div>
+            <div class="post_name">{{ post.author }}</div>
             <div class="post_location">Nairobi, Kenya</div>
         </div>
         <div class="post_options"><i class="fas fa-ellipsis-h"></i></div>
         <div class="post_image">
             <img src="/insta/static/images/img1.jpg" alt="">
+        </div>
+        <div class="engagement">
+            <a href=""><i class="far fa-heart"></i></a>
+            <a href=""><i class="far fa-comment"></i></a>
+            <a href=""><i class="far fa-share-square"></i></a>
+            <a href=""><i class="far fa-bookmark"></i></a>
+        </div>
+        <div class="likes">
+            <a href="">156</a>
         </div>
     </div>
 </div>
