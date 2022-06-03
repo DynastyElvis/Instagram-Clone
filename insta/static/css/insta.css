@@ -175,6 +175,26 @@ header {
     float: right;
     margin-right: 24px;
 }
+
+
+.caption span{
+    font-weight: 15px;
+    font-weight: 500;
+    color: #575353;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.time_posted{
+    font-size: 10px;
+    font-weight: 300;
+    color: #575353;
+    padding: opx 16px;
+    text-transform: uppercase;
+}
+
+
 .card{
     background-color: white;
     /* border-radius: 10px; */
@@ -209,4 +229,13 @@ header {
     width: 100%;
 
     padding: 0px 16px;
+}
+.caption a{
+   font-size: 10px;
+   font-weight: bold;
+    color: #020202;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: -5px;
+    padding-right: 5px;
 }
