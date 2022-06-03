@@ -8,6 +8,6 @@ from django.views.generic import (ListView)
 
 class PostListView(ListView):
     template_name = "insta/post_list.html"
-    querryset = Post.objects.all()
+    queryset = Post.objects.all()
     context_object_name = 'posts'
     
