@@ -58,3 +58,23 @@ header {
     height: 30px;
     margin-left: 20px;
 }
+.contact_icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    padding-left: 100px;
+}
+
+.contact_icons a{
+    font-size: 27px;
+    padding-left: 30;
+    font-weight: lighter;
+}
+
+/* 
+.search_bar {
+    display: flex;
+    justify-content: ;
+    width: 30%;
+    padding-right: 100px;
+} */
