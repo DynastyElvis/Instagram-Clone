@@ -152,6 +152,15 @@ header {
 
 }
 
+.likes {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin: 0px 0px 8px;
+    padding: 0px 21px;
+
+}
 
 .content_container{
     background-color: #FAFAFA;
@@ -161,6 +170,10 @@ header {
     left: 0px;
     top: 85px;
 
+}
+.fa-bookmark{
+    float: right;
+    margin-right: 24px;
 }
 .card{
     background-color: white;
@@ -181,4 +194,19 @@ header {
     height: auto;
     padding: 0px 16px;
     margin: 4px 0px 0px;
+}
+.engagement a{
+    /* width: 100%; */
+    padding: px;
+    color: #aaa7a7;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.caption{
+    display: inline-block;
+    width: 100%;
+
+    padding: 0px 16px;
 }
