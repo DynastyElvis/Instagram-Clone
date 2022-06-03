@@ -33,3 +33,28 @@ header {
     top: 83px;  
     width: 100%;
 }
+/* .navigation {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    text-align: center;
+    width: ;
+} */
+
+.instalogo {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    width: 30%;
+
+}
+
+.instalogo a{
+    font-size: 25px;
+    padding-left: 10;
+}
+.vl {
+    border-left: 1.5px solid #080808;
+    height: 30px;
+    margin-left: 20px;
+}
