@@ -3,6 +3,7 @@ from .views import (PostListView)
 
 
 app_name = 'insta'
-urlpatters = [
+
+urlpatterns = [
     path('', PostListView.as_view(), name='post_list'),
 ]
