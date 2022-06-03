@@ -12,6 +12,27 @@ header {
     left: 0;
 }
 
+.post_image {
+    width: 100%;
+    height: 620;
+    /* object-fit: cover; */
+
+}
+
+.post_options {
+    font-size: 15px;
+    float: right;
+    display: inline-block;
+    margin: 4px;
+}
+.post_location{
+    font-size: 12px;
+    color: #aaa7a7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 /* .navigation {
     display: flex;
     justify-content: flex-start;
@@ -69,7 +90,13 @@ header {
     text-align: center;
     width: ;
 } */
-
+.post_name {
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    padding: 0%;
+    margin: 0%;
+}
 .vl {
     border-left: 1.5px solid #3e1e47;
     height: 30px;
@@ -96,6 +123,11 @@ header {
     padding-right: 100px;
 } */
 
+.post_info {
+    display: inline-block;
+    padding-left: 16px;
+}
+
 .search_bar a {
     font-size: 27px;
     padding-left: 15;
@@ -111,6 +143,13 @@ header {
 .profile_image {
     display: inline-block;
     background-color: #3e1e47;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    border: 0 solid black;
+    border-radius: 50%;
+
 }
 
 
@@ -133,4 +172,13 @@ header {
     border: .9px solid #ccc;
     margin-bottom: 65px;
     /* float: centre; */
+}
+
+
+.engagement{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0px 16px;
+    margin: 4px 0px 0px;
 }
