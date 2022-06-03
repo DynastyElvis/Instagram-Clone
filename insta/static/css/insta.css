@@ -4,7 +4,7 @@ body {
 }
 header {
     background-color: #FAFAFA;
-    border-bottom: 1px solid #DDDDDD;
+    border-bottom: 2px solid #aaa7a7;
     position: fixed;
     top: 0;
     width: 100%;
@@ -18,5 +18,26 @@ header {
     flex-direction: row;
     text-align: center;
     padding: 26px;
+    flex-wrap: wrap;
+}
+/* .search_bar a{
+    font-size: ;
+    padding-left: 15;
+} */
+
+.content-container {
+    background-color: white;
+    margin-top: 50px;
+    position: absolute;
+    left: 0px;
+    top: 83px;  
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
