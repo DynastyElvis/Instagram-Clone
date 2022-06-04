@@ -3,8 +3,8 @@ A clone of Instagram that resembles the functionalities of Instagram. View, like
 
 ## Author  
   
-[Kipkemoi Elvis - Github](https://github.com/DynastyElvis)  
 LinkedIn - [KIPKEMOI ELVIS RONO](https://www.linkedin.com/in/elvis-rono-aa3548209/)
+GITHUB - [ELVIS](https://github.com/DynastyElvis)
 
   
  
@@ -31,12 +31,12 @@ LinkedIn - [KIPKEMOI ELVIS RONO](https://www.linkedin.com/in/elvis-rono-aa354820
  
 ## User Story  
   
-* View different photos that interest them  
-* Click a single image to expand it and view the details of that photo  
-* Search for different categories   
-* Copy a link to the photo to share with my friends.  
-* View photos based on the location they were taken.  
-  
+* Sign in to the application to start using.  
+* Upload a pictures to the application. 
+* Search for different users using their usernames.  
+* See your profile with all your pictures.  
+* Follow other users and see their pictures on my timeline.  
+
 
 [Go Back to the top](#Instagram-Clone)
 
