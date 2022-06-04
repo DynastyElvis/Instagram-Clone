@@ -1,36 +1,32 @@
 # Instagram-Clone
 A clone of Instagram that resembles the functionalities of Instagram. View, like, post, comment, dm etc
 
-# Photoshare
-A personal gallery application that you display your photos for others to see, with categories, image name, descriptions and foreign key.
-
 ## Author  
   
-[Kipkemoi Elvis](https://github.com/DynastyElvis)  
+[Kipkemoi Elvis - Github](https://github.com/DynastyElvis)  
+LinkedIn - [KIPKEMOI ELVIS RONO](https://www.linkedin.com/in/elvis-rono-aa3548209/)
+
   
  
 ##  Live Link  
- Click [View Site](https://elvis-gallery.herokuapp.com/)  to visit the site
+ Click [View Site](https://elv)  to visit the site
 
 
-[Go Back to the top](#Photoshare)
+[Go Back to the top](#Instagram-Clone)
 
   
 ## Screenshots 
 ###### Home Landing-Page
  
-<img src="https://raw.githubusercontent.com/DynastyElvis/Photoshare/main/photoshare/static/images/Screenshot%20from%202022-05-29%2019-52-27.png">
+<img src="https://raw.githubusercontent.com/DynastyElvis/Instagram-Clone/main/insta/static/images/Screenshot%20from%202022-06-04%2010-17-24.png">
  
- ###### Open image to view
- <img src="https://raw.githubusercontent.com/DynastyElvis/Photoshare/main/photoshare/static/images/Screenshot%20from%202022-05-29%2019-52-34.png"> 
-
- ###### Add Image to the Collage Gallery
- <img src="https://raw.githubusercontent.com/DynastyElvis/Photoshare/main/photoshare/static/images/Screenshot%20from%202022-05-29%2019-52-43.png">
+ ###### User Post Form Page
+ <img src="https://raw.githubusercontent.com/DynastyElvis/Instagram-Clone/main/insta/static/images/Screenshot%20from%202022-06-04%2010-17-59.png"> 
 
  ###### ADMIN Dashboard to manage the pictures
- <img src="https://raw.githubusercontent.com/DynastyElvis/Photoshare/main/photoshare/static/images/Screenshot%20from%202022-05-30%2017-45-23.png">
+ <img src="https://raw.githubusercontent.com/DynastyElvis/Instagram-Clone/main/insta/static/images/Screenshot%20from%202022-06-04%2010-17-47.png">
 
-[Go Back to the top](#Photoshare)
+[Go Back to the top](#Instagram-Clone)
 
  
 ## User Story  
@@ -42,7 +38,7 @@ A personal gallery application that you display your photos for others to see, w
 * View photos based on the location they were taken.  
   
 
-[Go Back to the top](#Photoshare)
+[Go Back to the top](#Instagram-Clone)
 
 
 ## Setup and Installation  
@@ -88,7 +84,7 @@ Open the application on your browser `127.0.0.1:8000`.
   
 
 
-[Go Back to the top](#Photoshare)
+[Go Back to the top](#Instagram-Clone)
 
 
 ## Technology used  
@@ -100,19 +96,19 @@ Open the application on your browser `127.0.0.1:8000`.
 * [Boostrap](https://getbootstrap.com/)  
 * [CSS](https://www.w3schools.com/css/)  
 
-[Go Back to the top](#Photoshare)
+[Go Back to the top](#Instagram-Clone)
 
 
 ## License
 
-[MIT LICENCE](https://github.com/DynastyElvis/Photoshare/blob/main/LICENSE)
+[MIT LICENCE](https://github.com/DynastyElvis/Instagram-Clone/blob/main/LICENSE)
 
 
 Copyright (c) 2022 K. E. Rono
 
 
 
-[Go Back to the top](#Photoshare)
+[Go Back to the top](#Instagram-Clone)
 
 ## Known Bugs
 
@@ -121,8 +117,5 @@ No Known Bugs.
 ## Support and contact details
  Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the application, feel free to reach me at :kipkemoilvs@gmail.com
 
-## Authors Info
-LinkedIn - [KIPKEMOI ELVIS RONO](https://www.linkedin.com/in/elvis-rono-aa3548209/)
 
-
-[Go Back to the top](#Photoshare)
+[Go Back to the top](#Instagram-Clone)
