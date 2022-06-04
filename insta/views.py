@@ -21,5 +21,4 @@ class PostCreateView(CreateView):
         print(form.cleaned_data)
         form.instance.author = self.request.user
         
-        
         return super().form_invalid(form)
