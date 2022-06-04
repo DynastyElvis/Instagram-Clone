@@ -1,5 +1,5 @@
 from django.urls import path, include
-from .views import (PostListView, PostCreateView, PostUpdateView, PostDeleteView, UserPostListView)
+from .views import (PostListView, PostCreateView)
 
 
 app_name = 'insta'

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Post
 from django.views.generic import (ListView, CreateView, UpdateView, DeleteView)
-
+from .forms import PostForm
 
 
 # Create your views here.
@@ -19,6 +19,9 @@ class PostCreateView(CreateView):
     queryset = Post.objects.all()
     success_url = '/'
     
+    # def PostForm(self, **kwargs):
+    #     kwargs['instance'] = self.request.user
+    #     return super().PostForm(**kwargs)
     
     def form_invalid(self, form):
         print(form.cleaned_data)
