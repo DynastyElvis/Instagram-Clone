@@ -16,3 +16,10 @@ class PostListView(ListView):
 class PostCreateView(CreateView):
     template = 'insta/post_create.html'
     from_class = PostForm
+    queryset = Post.objects.all()
+    def form_invalid(self, form):
+        print(form.cleaned_data)
+        form.instance.author = self.request.user
+        
+        
+        return super().form_invalid(form)
