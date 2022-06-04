@@ -4,6 +4,8 @@ A clone of Instagram that resembles the functionalities of Instagram. View, like
 ## Author  
   
 LinkedIn - [KIPKEMOI ELVIS RONO](https://www.linkedin.com/in/elvis-rono-aa3548209/)
+
+
 GITHUB - [ELVIS](https://github.com/DynastyElvis)
 
   
@@ -46,7 +48,7 @@ To get the project .......
   
 ##### Cloning the repository:  
  ```bash 
-https://github.com/DynastyElvis/Photoshare```
+https://github.com/DynastyElvis/Instagram-Clone```
 ##### Navigate into the folder and install requirements  
  ```bash 
 cd Picture-Globe pip install -r requirements.txt 
@@ -115,7 +117,9 @@ Copyright (c) 2022 K. E. Rono
 No Known Bugs.
 
 ## Support and contact details
- Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the application, feel free to reach me at :kipkemoilvs@gmail.com
+ Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the application, feel free to reach me at 
+Email Address - [Kipkemoilvs@gmail.com](Kipkemoilvs@gmail.com)
+
 
 
 [Go Back to the top](#Instagram-Clone)
