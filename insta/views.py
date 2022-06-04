@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Post
-from django.views.generic import (ListView, CreateView, UpdateView, DeleteView)
+from django.views.generic import (ListView, CreateView)
 from .forms import PostForm
 
 
@@ -23,8 +23,8 @@ class PostCreateView(CreateView):
     #     kwargs['instance'] = self.request.user
     #     return super().PostForm(**kwargs)
     
-    def form_invalid(self, form):
+    def form_valid(self, form):
         print(form.cleaned_data)
         form.instance.author = self.request.user
         
-        return super().form_invalid(form)
+        return super().form_valid(form)
